@@ -51,9 +51,9 @@ const Contact = () => {
               <AiOutlineMail  className='fs-5'/>
               <Link className='text-dark ' to="mad@gmail.com"> mad@gmail.com</Link>
             </li>
-            <li className='mb-3 d-flex gap-15 align-items-center '>
+            <li className='mb-3 d-flex gap-15 align-items-center  '>
               <AiFillInfoCircle className='fs-5' />
-              <p>Monday to Friday 10:43AM-10:34PM</p>
+              <p className='mb-0'>  Monday to Friday 10:43AM-10:34PM</p>
             </li>
             
 

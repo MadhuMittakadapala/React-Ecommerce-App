@@ -19,7 +19,7 @@ const Checkout = () => {
       <div className="row">
             <div className="col-6">
                 <div className='checkout-leftside-details m-5'>
-                    <h1>MADN</h1>
+                    <h1><b>MADN</b> </h1>
                 </div>
                 <div className='m-5'>
                 <nav style={{"--bs-breadcrumb-divider": ">"}} aria-label="breadcrumb">

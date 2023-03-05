@@ -26,8 +26,8 @@ const SignUp = () => {
                          <div>
                          <CustomInput type="text"  name='firstname' placeholder='Enter your firstname' className=' my-3 '/>
                          <CustomInput type="text"  name='lastname' placeholder='Enter your lastname' className=' my-3 '/>
-                         <CustomInput type="email"  name='email' placeholder='Enter your email' className=' my-3 '/>
-                         <CustomInput type="password"  name='password' placeholder='Enter your passwprd' className=' my-3 '/> 
+                         <CustomInput type="email"  name='email' placeholder='Enter your email address' className=' my-3 '/>
+                         <CustomInput type="password"  name='password' placeholder='Enter your password' className=' my-3 '/> 
                          <div className='d-flex flex-column justify-content-center align-items-center  gap-15 mt-5'>
                             <button className='button   border-0 ' type='submit'>Submit</button> 
                         <Link to="/login" className='forgot-password '>Back</Link>
