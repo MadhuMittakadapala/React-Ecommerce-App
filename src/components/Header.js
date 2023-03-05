@@ -5,12 +5,13 @@ import compare from "../images/compare.svg"
 import wishlist from "../images/wishlist.svg"
 import user from "../images/user.svg"
 import cart from "../images/cart.svg"
+import Container from './Container';
 
 const Header = () => {
   return (
    <>
-    <header className="header-top-strip py-3">
-      <div className="container-xxl">
+    <Container class1="header-top-strip py-3">
+     
         <div className="row">
           <div className="col-6 text-white">
             <p className='mb-0'>Free shopping and over $100 & Free returns</p>
@@ -19,10 +20,11 @@ const Header = () => {
             <p>Hotline: <a href="tel: +91 7673937170" className='text-white'>+91 7673937170</a></p>
           </div>
         </div>
-      </div>
-    </header>
-    <header className="header-upper py-3 ">
-      <div className="container-xxl">
+     
+    </Container>
+
+    <Container class1="header-upper py-3 ">
+      
         <div className="row align-items-center">
           <div className="col-2">
             <h2 > <Link className='text-white mx-4'>MADN</Link></h2>
@@ -70,10 +72,11 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <header className="header-bottom py-3" >
-      <div className="container-xxl">
+     
+    </Container>
+    
+    <Container class1="header-bottom py-3" >
+     
         <div className="row">
           <div className="col-12">
             <div className="menu-bottom d-flex align-items-center gap-30">
@@ -101,9 +104,9 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+     
 
-    </header>
+    </Container>
    </>
   )
 }
