@@ -27,13 +27,11 @@ const ProductCard =  (props) => {
   return (
    
     <>
+   
     <div className={` ${location.pathname == "/product" ? `gr-${grid}` : "col-3"}`}>
         <Link to={`${location.pathname == "/" ? "/product/:id" : location.pathname== "/product/:id" ? "/product/:id" : ":id" }`} className="product-card position-relative">
             <div className="wishlist-icon position-absolute">
-               <button className='border-0 bg-transparent'>
-               <img src={wish} alt="wishlist" />
-
-               </button>
+                <img src={wish} alt="wishlist" />
             </div>
             <div className="product-image">
                 <img src={watch} className='img-fluid' alt=" product image" />
@@ -42,7 +40,15 @@ const ProductCard =  (props) => {
             <div className="product-details">
                 <h6>Havels</h6>
                 <h5>Kids headsphones bilk 10 pack multi colored for students</h5>
-                 
+                <ReactStars
+                    count={5}
+                    // onChange={ratingChanged}
+                    size={24}
+                    activeColor="#ffd700"
+                    value={3}
+                    edit={false}
+                />
+
                 <p className={`description ${grid === 12 ? "d-block" : "d-none" }`}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, quae facilis provident, delectus doloribus sequi praesentium culpa pariatur vero enim labore odit eos animi hic laborum, repellendus voluptas rem voluptatibus.</p>
  
                 <p className='price'>$100.00</p>

@@ -3,6 +3,8 @@ import BreadCrumb from '../components/BreadCrumb';
 import Meta from '../components/Meta';
 import Colors from './Colors';
 import Container from "../components/Container"
+import cross from "../images/cross.svg"
+import watch from "../images/watch.jpg"
 
 const CompareProduct = () => {
   return (
@@ -16,9 +18,9 @@ const CompareProduct = () => {
             <div className="row">
                 <div className="col-3">
                     <div className="compare-product-card position-relative">
-                        <img src="images/cross.svg" alt="cross" className='position-absolute cross'/>
+                        <img src={cross} alt="cross" className='position-absolute cross'/>
                         <div className="product-card-image">
-                            <img src="images/watch.jpg" alt="watch" />
+                            <img src={watch} alt="watch"  className=' img-fluid'/>
                         </div>
                         <div className="compare-product-details">
                             <h5 className='title'>Huawei Mediapad 7 T1-701U Tablet (WiFi, 3G, Voice</h5>
@@ -59,10 +61,10 @@ const CompareProduct = () => {
                     </div>
                 </div>
                 <div className="col-3">
-                    <div className="compare-product-card position-relative">
-                        <img src="images/cross.svg" alt="cross" className='position-absolute cross  img-fluid'/>
-                        <div className="product-card-image ">
-                            <img src="images/watch.jpg" alt="watch" />
+                    <div className="compare-product-card position-relative ">
+                        <img src={cross} alt="cross" className='position-absolute cross  img-fluid'/>
+                        <div className="product-card-image  img-fluid">
+                            <img src={watch} alt="watch"  className=' img-fluid'/>
                         </div>
                         <div className="compare-product-details">
                             <h5 className='title'>Huawei Mediapad 7 T1-701U Tablet (WiFi, 3G, Voice</h5>

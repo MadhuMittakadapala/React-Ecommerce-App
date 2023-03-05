@@ -297,11 +297,7 @@ const Home = () => {
   <div className="row ">
       <h3 className='section-heading'>Our Popular Products</h3>
       <div className="row">
-          <div className="col-4 d-flex gap-3 ">
-            <div className="card"> </div>
-            <div className="card"></div>
-          </div>
-          <div className="col-8 d-flex gap-3 ">
+          <div className="col-12 d-flex gap-3 ">
               <ProductCard />
               <ProductCard />
              
